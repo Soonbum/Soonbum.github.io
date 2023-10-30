@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "ko"
-title                    : "Soonbum Jeong의 블로그입니다."
+title                    : "Soonbum Jeong"
 title_separator          : "|"
 subtitle                 : "Pilgrim's Progress"  # site tagline that appears below site title in masthead
 name                     : "Soonbum Jeong"
-description              : "정순범의 블로그입니다."
+description              : "개발에 대한 아이디어를 기록합니다."
 url                      : "http://Soonbum.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
