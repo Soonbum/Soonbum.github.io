@@ -6,6 +6,11 @@ tags: [unix, linux, shell]
 toc: true             # Heading을 이용하여 자동으로 목차가 생성됨
 ---
 
+# UNIX/Linux 계보
+
+![image](https://github.com/Soonbum/Soonbum.github.io/assets/16474083/463bf146-768b-49e7-b9a0-31192731db39)
+
+
 # UNIX/Linux 기본 명령어와 개념
 
 ## 입출력 재지정 (Redirection)
@@ -58,7 +63,7 @@ $ cat day_time      # day_time 파일 보기
 
 * cd 명령어: *현재 디렉토리를 변경*함 (Change Directory)
 
-* chgrp 명령어: 소유 그룹을 변경함
+* chgrp 명령어: 소유 그룹을 변경함 (Change Group)
 
 * chmod 명령어: 파일, 디렉토리, 장치 등의 *권한 변경*
   - '- rwx rwx rwx': 파일 타입, 소유자 퍼미션, 소유자 그룹 퍼미션, 기타 모든 사용자의 퍼미션을 의미함
@@ -67,7 +72,7 @@ $ cat day_time      # day_time 파일 보기
   - 기호를 통해 퍼미션 지정 가능: [u(소유자), g(소유자 그룹), o(기타 소유자), a(ugo 전부)]
   - 그 외에도 실행 권한 관련된 기능이 있음: SetUID(s), SetGID(s), StickyBit(t)
 
-* chown 명령어: 파일 *소유자/소유 그룹을 변경*함 (root만 사용 가능) (Change Owner)
+* chown 명령어: 파일 *소유자를 변경*함 (root만 사용 가능) (Change Owner)
 
 * cmp 명령어: 파일을 *비교*함, diff와 달리 차이점의 유무만 알려줌 (Compare)
 
@@ -103,6 +108,14 @@ $ cat day_time      # day_time 파일 보기
 * grep 명령어: 텍스트 형식으로 된 파일의 내용이나 명령어의 실행 결과를 *특정 문자나 단어로 검색*함
   - 단독으로 사용하면 텍스트 파일 또는 결과의 *특정 문자나 단어가 포함된 행이 출력됨*
 
+* groupadd 명령어: 그룹을 생성함
+
+* groupdel 명령어: 그룹을 삭제함
+
+* groups 명령어: 자신이 소속된 그룹의 목록을 표시함
+
+* id 명령어: 자신의 기본 그룹이나 그 외 소속되어 있는 그룹을 알려줌
+
 * jobs 명령어: *현재 가동 중인 작업*을 번호를 붙여 목록으로 표시함
 
 * kill 명령어: 프로세스를 *강제로 종료*함
@@ -122,6 +135,8 @@ $ cat day_time      # day_time 파일 보기
 * mv 명령어: 특정 파일을 현재 디렉토리 또는 다른 디렉토리로 *이동*시키거나 이름을 *변경*함
 
 * netstat 명령어: *현재 시스템에 연결되어 있는 네트워크 연결 상태 및 포트 정보*를 표시함
+
+* newgrp 명령어: 하위 그룹을 기본 그룹으로 만듦
 
 * nl 명령어: 텍스트 형태의 파일을 읽어 *행 번호*를 부여함
 
@@ -149,6 +164,8 @@ $ cat day_time      # day_time 파일 보기
 
 * script 명령어: *터미널에서 수행하는 작업한 모든 내용*을 텍스트 형식으로 저장함
 
+* shutdown 명령어: 시스템을 종료하거나 재시작함
+
 * sort 명령어: 텍스트 파일을 *행 단위로 정렬*함
 
 * su 명령어: 다른 사용자로 *전환*함 (Switch User)
@@ -174,6 +191,8 @@ $ cat day_time      # day_time 파일 보기
 * useradd 명령어: 사용자 계정을 생성함
 
 * userdel 명령어: 사용자 계정을 삭제함
+
+* usermod 명령어: 사용자를 그룹에 등록함 (User Modify)
 
 * vmstat 명령어: *가상 메모리 상태*를 확인함
 
